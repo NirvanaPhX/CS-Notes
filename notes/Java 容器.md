@@ -37,6 +37,7 @@
 - LinkedHashSet：具有 HashSet 的查找效率，并且内部使用双向链表维护元素的插入顺序。
 
 #### 2. List
+- List 集合相对于Collection接口提供了一些Random Access（随机访问）的函数，如：void add(int index, E element), E remove(int index), E set(int index, E element), E get(intindex)。这些函数为List特有并被子类继承。
 
 - ArrayList：基于动态数组实现，支持随机访问。
 
